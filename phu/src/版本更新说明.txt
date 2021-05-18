@@ -1,0 +1,57 @@
+1.软件版本：V3.0
+   350V-5KW-EX
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V1.1
+
+2.软件版本：V3.1
+   350V-5KW-STD
+   CAN报文为标准帧;
+   通信协议：PHU-LIN协议-V2.0\PHU-CAN协议-V1.2
+   备注：韩国Evits
+
+3.软件版本：V4.0
+   600V-7KW-EX
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V1.1
+   软件版本：V4.0
+
+4.软件版本：V4.1
+   康明斯
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V1.3
+   与600V-7KW-EX区别在于功率%数据补偿为0；
+
+5.CANBootloader-V1.1
+实现PHU 主MCU固件升级
+
+6.CANBootloader-V1.2
+实现PHU 主/从MCU固件升级
+PHU-IAP-MASTER,做超时处理
+
+7.CANBootloader-V1.3
+实现PHU 主/从MCU固件升级
+PHU-IAP-MASTER,无超时处理
+
+8.CANBootloader-V1.4
+实现PHU 主/从MCU固件升级
+PHU-IAP-MASTER，APP出厂备份，超时处理
+
+9.软件版本：V3.2
+   350V-5KW-EX
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V2.0
+   在V3.0基础上新增软件CAN升级
+
+
+10.软件版本：V4.2
+   600V-7KW-EX
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V2.0
+   在V4.0基础上新增软件CAN升级
+
+11.软件版本：V4.3
+   康明斯
+   CAN报文为扩展帧;
+   通信协议：PHU-LIN协议-V3.0\PHU-CAN协议-V2.1
+   与600V-7KW-EX区别在于功率%数据补偿为0；
+   在V4.1基础上新增软件CAN升级
